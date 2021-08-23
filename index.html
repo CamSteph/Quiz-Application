@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="/style.css">
+    <script defer src="/main.js"></script>
+    <script src="https://kit.fontawesome.com/9c7d1bff64.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <!-- header section -->
+        <header class="header-section">
+            <h1 class="header-title">Quiz Application</h1>
+            <p class="header-message">Created by: Cameron Stephenson</p>
+        </header>
+
+        <!-- quiz over section -->
+        <div class="quiz-over-section" id="quiz-over-section">
+            <h1 class="quiz-over-title">Quiz Over</h1>
+            <h3 class="quiz-over-h3">Score: <span class="quiz-over-span" id="quiz-over-span">100</span>%</h3>
+            <h5 class="quiz-over-rating" id="quiz-over-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></h5>
+            <p class="try-again-message">Want to try again? Click below.</p>
+            <button class="try-again-btn" id="try-again-btn">Try Again</button>
+        </div>
+        <!-- quiz section -->
+        <main class="quiz-section">
+
+            <!-- <div class="question-section">
+                <h3 class="question" id="question">what does HTML stand for?</h3>
+            </div> -->
+
+            <div class="answer-section">
+                <ul class="answer-ul">
+                    <li class="answer-li li-top" id="ques">
+                        <div class="question-section">
+                            <h3 class="question" id="question">1.) What does HTML stand for?</h3>
+                        </div>
+                    </li>
+                    <li class="answer-li" id="ans-1"><input type="radio" id="input-1" >A.) Hightlight Machine Text</input></li>
+                    <li class="answer-li" id="ans-2"><input type="radio" id="input-2">B.) Higher Text Mark Linings</input></li>
+                    <li class="answer-li" id="ans-3"><input type="radio" id="input-3">C.) Hypertext Markup Language</input></li>
+                    <li class="answer-li li-bottom" id="ans-4"><input type="radio" id="input-4">D.) Hi-Top Media Line</input></li>
+                </ul>
+            </div>
+
+            <div class="btn-section">
+                <button class="next-btn" id="next-btn">Next Question <i class="fas fa-arrow-right"></i></i></button>
+            </div>
+        </main>
+        <footer class="footer-section">
+            <h4 class="footer-left">Cameron Stephenson</h4>
+            <h4 class="footer-left">Quiz Application &copy;</h4>
+        </footer>
+    </div>
+</body>
+</html>
